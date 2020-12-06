@@ -39,16 +39,16 @@
 
 
 
-	$name = $_POST['naam & voornaam'];
-	$email = $_POST['e-mail'];
-	$message = $_POST['bericht'];
+	$name = $_POST['name'];
+	$email = $_POST['Email'];
+	$message = $_POST['message'];
 	$from = $email;
 	$to = 'atelierpe79@gmail.com';  // please change this email id
-	$subject = 'Contact : Atelier-Pé';
+	$subject = 'Contact : Atelier-Pe';
 
-	$body = "van: $name\n E-Mail: $email\n Bericht:\n $message";
+	$body = "from: $name\n Email: $email\n Message:\n $message";
 
-	$headers = "Van: ".$from;
+	$headers = "from: ".$from;
 
 
 	//send the email

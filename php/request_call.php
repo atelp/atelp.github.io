@@ -1,6 +1,6 @@
 <?php
 
-$to = 'info@example.com';  // please change this email id
+$to = 'atelierpe79@gmail.com';  // please change this email id
 
 $errors = array();
 // print_r($_POST);
