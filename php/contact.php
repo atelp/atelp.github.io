@@ -4,17 +4,17 @@
 
 	// Check if name has been entered
 	if (!isset($_POST['name'])) {
-		$errors['name'] = 'Please enter your name';
+		$errors['name'] = 'Vul AUB u Naam in';
 	}
 
 	// Check if email has been entered and is valid
 	if (!isset($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-		$errors['email'] = 'Please enter a valid email address';
+		$errors['email'] = 'Vul AUB een geldig E-Mail adres in';
 	}
 
 	//Check if message has been entered
 	if (!isset($_POST['message'])) {
-		$errors['message'] = 'Please enter your message';
+		$errors['message'] = 'Vul AUB u Bericht in';
 	}
 
 	$errorOutput = '';
@@ -39,16 +39,16 @@
 
 
 
-	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$message = $_POST['message'];
+	$name = $_POST['naam & voornaam'];
+	$email = $_POST['e-mail'];
+	$message = $_POST['bericht'];
 	$from = $email;
-	$to = 'info@example.com';  // please change this email id
-	$subject = 'Contact Form : Titan - The best downloaded template ever';
+	$to = 'atelierpe79@gmail.com';  // please change this email id
+	$subject = 'Contact : Atelier-Pé';
 
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+	$body = "van: $name\n E-Mail: $email\n Bericht:\n $message";
 
-	$headers = "From: ".$from;
+	$headers = "Van: ".$from;
 
 
 	//send the email
@@ -56,7 +56,7 @@
 	if (mail ($to, $subject, $body, $headers)) {
 		$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
  		$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-		$result .= 'Thank You! I will be in touch';
+		$result .= 'Bedankt we zullen u zo snel mogelijk helpen';
 		$result .= '</div>';
 
 		echo $result;
@@ -66,7 +66,7 @@
 	$result = '';
 	$result .= '<div class="alert alert-danger alert-dismissible" role="alert">';
 	$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-	$result .= 'Something bad happend during sending this message. Please try again later';
+	$result .= 'Er is iets fout gegaan, Probeer het later opnieuw.';
 	$result .= '</div>';
 
 	echo $result;
