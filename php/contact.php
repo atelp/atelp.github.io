@@ -40,7 +40,7 @@
 
 
 	$name = $_POST['name'];
-	$email = $_POST['Email'];
+	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
 	$to = 'atelierpe79@gmail.com';  // please change this email id
