@@ -355,80 +355,170 @@
           </div>
         </div>
       </nav>
-      <section class="bg-dark-30 showcase-page-header module parallax-bg" data-background="assets/images/showcase_bg.jpg">
-        <div class="titan-caption">
-          <div class="caption-content">
-            <div class="font-alt mb-30 titan-title-size-1">Powerful. Multipurpose.</div>
-            <div class="font-alt mb-40 titan-title-size-4">100+ Layouts</div><a class="section-scroll btn btn-border-w btn-round" href="#demos">See Demos</a>
-          </div>
-        </div>
-      </section>
-      <div class="main showcase-page">
-        <section class="module-extra-small bg-dark">
+      <div class="main documentation-page">
+        <section class="module bg-dark-60 about-page-header" data-background="assets/images/about_bg.jpg">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6 col-md-8 col-lg-9">
-                <div class="callout-text font-alt">
-                  <h4 style="margin-top: 0px; font-;">Start Creating Beautiful Websites</h4>
-                  <p style="margin-bottom: 0px;">Download Titan Free today!</p>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="callout-btn-box"><a class="btn btn-border-w btn-circle" href="https://themewagon.com/themes/titan/">Downlaod Free</a></div>
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Documentation</h2>
+                <div class="module-subtitle font-serif">Thank you for choosing this template. If you have any questions please feel free to email us</div>
               </div>
             </div>
           </div>
         </section>
-        <section class="module-medium" id="demos">
+        <section class="module-medium" id="contact">
           <div class="container">
-            <div class="row multi-columns-row">
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_mp_fullscreen_video_background.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/main_demo.jpg" alt="Main Demo"></div>
-                  <h3 class="content-box-title font-serif">Main Demo</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_agency.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/agency.jpg" alt="Agency"></div>
-                  <h3 class="content-box-title font-serif">Agency</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_portfolio.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/portfolio.jpg" alt="Portfolio"></div>
-                  <h3 class="content-box-title font-serif">Portfolio</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_restaurant.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/restaurant.jpg" alt="Restaurant"></div>
-                  <h3 class="content-box-title font-serif">Restaurant</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_finance.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/finance.jpg" alt="Finance"></div>
-                  <h3 class="content-box-title font-serif">Finance</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_landing.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/landing.jpg" alt="Landing"></div>
-                  <h3 class="content-box-title font-serif">Landing</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_photography.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/photography.jpg" alt="Photography"></div>
-                  <h3 class="content-box-title font-serif">Photography</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_shop.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/shop.jpg" alt="Shop"></div>
-                  <h3 class="content-box-title font-serif">Shop</h3></a></div>
-              <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_op_fullscreen_gradient_overlay.html">
-                  <div class="content-box-image"><img src="assets/images/screenshots/one_page.jpg" alt="One Page"></div>
-                  <h3 class="content-box-title font-serif">One Page</h3></a></div>
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Contact Form</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>Open the file &nbsp;<strong>assets/php/contact.php</strong>&nbsp; and enter your data:</p>
+                <pre class="prettyprint lang-basic">$to = 'info@example.com';  // please change this email id
+$subject = 'Contact Form : Titan - The best downloaded template ever';</pre>
+                <h4>If Contact form form not working</h4>
+                <p>You need to check is PHP mail() function working.</p>
+                <p>
+                  <textarea rows="4" style="width:100%; text-transform: lowercase;"><?php
+mail('you@yourmail.com','Test mail','The mail function is working!');
+echo 'Mail sent!';
+?></textarea>
+                </p>
+                <ul>
+                  <li>Save this code as mailtest.php</li>
+                  <li>change you@yourmail.com to your e-mail address</li>
+                  <li>upload mailtest.php to your server</li>
+                  <li>open mailtest.php in your browser (http://yourwebsite.com/mailtest.php)</li>
+                  <li>check your inbox to see if a test message arrived.</li>
+                </ul><strong>If it works:</strong>
+                <ul>
+                  <li>double-check your form script for errors (like e-mail address misspelling)</li>
+                  <li>use the same e-mail address as your form recipient</li>
+                  <li>double-check your SPAM filters and SPAM/Junk/Bulk mailboxes</li>
+                </ul><strong>If it not</strong>
+                <p>Contact your host and ask them to check PHP mail() setting.</p>
+              </div>
             </div>
           </div>
         </section>
-        <section class="module-extra-small bg-dark">
+        <section class="module-medium" id="reservation">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6 col-md-8 col-lg-9">
-                <div class="callout-text font-alt">
-                  <h4 style="margin-top: 0px;">Start Creating Beautiful Websites</h4>
-                  <p style="margin-bottom: 0px;">Download Titan Free today!</p>
-                </div>
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Reservation Form</h2>
+                <div class="module-subtitle font-serif"></div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="callout-btn-box"><a class="btn btn-border-w btn-circle" href="https://themewagon.com/themes/titan/">Downlaod Free</a></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>Open the file &nbsp;<strong>assets/php/reservation.php</strong>&nbsp; and enter your data:</p>
+                <pre class="prettyprint lang-basic">$from = $email;
+$to = 'info@example.com';  // please change this email id
+$subject = 'Table Booking : Titan';
+
+</pre>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module-medium" id="mailchimp">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Configuring Mailchimp</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>Open the file &nbsp;<strong>assets/php/subscribe.php</strong>&nbsp; and enter your data:</p>
+                <pre class="prettyprint lang-basic">\n// MailChimp
+$APIKey = '53bb3bcad3947b9c5b45884b439097******';
+$listID = 'fd1b8b****';</pre>
+                <div class="alert alert-info">Grab an API Key from http://admin.mailchimp.com/account/api/</div>
+                <div class="alert alert-info">Grab your List&apos;s Unique Id by going to http://admin.mailchimp.com/lists/</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module-medium" id="gmap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Google Maps</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>Open the file &nbsp;<strong>assets/js/main.js</strong>&nbsp; and enter your latitude &amp; longitude:</p>
+                <pre class="prettyprint lang-js">\n/* ---------------------------------------------- /*
+ * Google Map
+/* ---------------------------------------------- */
+
+var $mapis = $('#map');
+
+if ($mapis.length > 0) {
+
+    var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);
+
+</pre>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module-medium" id="plugin">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Plugin Settings</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>All plugins setting is in &nbsp;<strong>assets/js/custom.js</strong>&nbsp; file</p>
+                <ul>
+                  <li><a href="https://github.com/bas2k/jquery.appear/">Appear</a> - Progress bars, CountTo</li>
+                  <li><a href="http://www.thepetedesign.com/demos/jquery_super_simple_text_rotator_demo.html">Text rotator</a> - Changes to different text in same place. Mainly used in Header</li>
+                  <li><a href="http://isotope.metafizzy.co/">Isotope</a> - Portfolio</li>
+                  <li><a href="https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties">FlexSlider</a> - Sliders</li>
+                  <li><a href="http://owlgraphic.com/owlcarousel/#how-to">OWL Carousel</a> - Team carousel, client logos carousel</li>
+                  <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific-popup</a> - Modal window, gallery, modal video</li>
+                  <li><a href="https://github.com/pupunzi/jquery.mb.YTPlayer">Video background</a> - Header video background or any section with video</li>
+                </ul>
+                <p>If you have any questions please feel free to email<a href="mailto:info@themewagon.com">&nbsp; here</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module-medium" id="changelog">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Changelog</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <p> Version 1.0 - Initial Release</p>
               </div>
             </div>
           </div>
         </section>
       </div>
-      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+      <script src="assets/lib/prettify.js"></script>
+      <script>
+        !function ($) {
+            $(function () {
+                window.prettyPrint && prettyPrint()
+            })
+        }(jQuery)
+      </script>
     </main>
     <!--  
     JavaScripts
@@ -445,6 +535,14 @@
     <script src="assets/lib/smoothscroll.js"></script>
     <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
     <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/lib/prettify.js"></script>
+    <script>
+      !function ($) {
+          $(function () {
+              window.prettyPrint && prettyPrint()
+          })
+      }(jQuery)
+    </script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
