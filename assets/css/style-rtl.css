@@ -1201,8 +1201,8 @@ General Styles - Owlcarousel
   z-index: 9999;
   -webkit-animation: load 0.8s infinite linear;
   -moz-animation: load 0.8s infinite linear;
-  ms-animation: load 0.8s infinite linear;
-  o-animation: load 0.8s infinite linear;
+  -ms-animation: load 0.8s infinite linear;
+  -o-animation: load 0.8s infinite linear;
   animation: load 0.8s infinite linear;
 }
 
