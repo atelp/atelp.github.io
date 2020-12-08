@@ -1271,7 +1271,7 @@ General Styles - Owlcarousel
 
 .navbar-custom .nav li > a {
   position: relative;
-  color: rgba(54, 52, 48, 0.9);
+  color: rgba(54, 52, 48, 0.7);
 }
 
 .navbar-custom .dropdown-menu > li > a {
@@ -1317,8 +1317,8 @@ General Styles - Owlcarousel
   right: 0;
   top: 50%;
   margin-top: -6px;
-  font: normal normal normal 32px/1 FontAwesome;
-  font-size: 32px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 9px;
   content: "\f107";
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -1334,7 +1334,7 @@ General Styles - Owlcarousel
   font-size: 11px;
 }
 
-/* Navbar search */
+/* Navbar search
 
 .dropdown-search {
 	position: relative;
@@ -1358,13 +1358,13 @@ General Styles - Owlcarousel
 	top: 50%;
 	right: 1px;
 	width: 42px;
-	height: 100px;
+	height: 40px;
 	line-height: 38px;
 	font-size: 14px;
 	outline: none;
 	color: #999;
 	margin-top: -20px;
-}
+}*/
 /*--------------------------------------------------------------
 	Header
 --------------------------------------------------------------*/
@@ -1374,21 +1374,19 @@ General Styles - Owlcarousel
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  z-index: 200;
+  z-index: 0;
   background-size: cover;
-  height: 200%;
-  width: 100%;
 }
 
 .titan-title-size-1 {
   letter-spacing: 4px;
-  font-size: 32px;
+  font-size: 15px;
 }
 
 .titan-title-size-2 {
   line-height: 1.3;
   letter-spacing: 3px;
-  font-size: 32px;
+  font-size: 18px;
   opacity: .8;
 }
 
