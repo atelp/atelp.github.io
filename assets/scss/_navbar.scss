@@ -39,15 +39,15 @@
 }
 
 .navbar-custom .nav li > a {
-	position: relative;
-	color: rgba(73, 68, 68, 0.7);
+	position: absolute;
+	color: rgba(255, 255, 255, .7);
 }
 
 .navbar-custom .dropdown-menu > li > a {
 	border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
 	padding: 11px 15px;
 	letter-spacing: 2px;
-	color: #999;
+	color: rgb(54, 51, 51);
 }
 
 .navbar-custom .dropdown-menu .dropdown-menu {
