@@ -1272,7 +1272,7 @@ General Styles - Owlcarousel
 .navbar-custom .nav li > a {
   position: relative;
   color: rgba(255, 255, 255, 0.7);
-  scroll-margin: 50;
+  line-height: 50%;
 }
 
 .navbar-custom .dropdown-menu > li > a {
