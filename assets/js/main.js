@@ -454,7 +454,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 $cfsubmit = $("#cfsubmit"),
                 cfsubmitText = $cfsubmit.text();
 
-            $cfsubmit.text("Sending...");
+            $cfsubmit.text("Verzenden...");
 
 
             $.ajax(
@@ -470,7 +470,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                         $('#contactForm textarea[name=message]').val('');
                     },
                     error: function (data) {
-                        alert("Error occurd! Please try again");
+                        alert("Er is een fout opgetreden, probeer het later opnieuw.");
                     }
                 });
 
@@ -494,7 +494,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 $cfsubmit = $("#racSubmit"),
                 cfsubmitText = $cfsubmit.text();
 
-            $cfsubmit.text("Sending...");
+            $cfsubmit.text("Verzenden...");
 
 
             $.ajax(
@@ -510,7 +510,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                         $('#requestACall textarea[name=phone]').val('');
                     },
                     error: function (data) {
-                        alert("Error occurd! Please try again");
+                        alert("Er is een fout opgetreden, probeer het later opnieuw.");
                     }
                 });
 
@@ -534,7 +534,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 $cfsubmit = $("#rfsubmit"),
                 cfsubmitText = $cfsubmit.text();
 
-            $cfsubmit.text("Sending...");
+            $cfsubmit.text("Verzenden...");
 
 
             $.ajax(
@@ -551,7 +551,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                         $('#reservationForm textarea[name=email]').val('');
                     },
                     error: function (data) {
-                        alert("Error occurd! Please try again");
+                        alert("Er is een fout opgetreden, probeer het later opnieuw.");
                     }
                 });
 
