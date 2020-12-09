@@ -199,7 +199,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 $('.navbar-custom .navbar-nav > li.dropdown, .navbar-custom li.dropdown > ul > li.dropdown').removeClass('open');
                 var delay = 0;
                 var setTimeoutConst;
-                $('.navbar-custom .navbar-nav > li.dropdown, .navbar-custom li.dropdown > ul > li.dropdown').click(function() {
+                $('.navbar-custom .navbar-nav > li.dropdown, .navbar-custom li.dropdown > ul > li.dropdown').hover(function() {
                         var $this = $(this);
                         setTimeoutConst = setTimeout(function() {
                             $this.addClass('open');
